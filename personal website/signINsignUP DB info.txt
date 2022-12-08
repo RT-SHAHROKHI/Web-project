@@ -1,0 +1,11 @@
+data base name : rt
+tabel name : users
+values in tabel : 
+
+id (numbe : A_I)
+
+email(varchar)
+
+username(varchar ) 
+
+password(varchar) 

@@ -1,0 +1,8 @@
+data base name : form 
+tabel name : contact 
+values in tabel : 
+id (numbe : A_I)
+name(varchar ) 
+email(varchar)
+title(varchar)
+subject(varchar ) 

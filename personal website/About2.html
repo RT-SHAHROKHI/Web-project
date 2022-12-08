@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <link rel = "stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.contentForNewtry{
+    width: 100%;
+    position: absolute; 
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    
+    font-size: 50px; 
+    margin: 35px auto;  
+}
+
+
+img.rounded{
+    width: 55%;
+    border-radius: 20px ;
+  } 
+
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+* {box-sizing: border-box;}
+
+.card {
+max-width: 500px;
+margin: auto;
+text-align: center;
+font-family: arial;
+padding: 20px;
+color: white;
+border-radius: 10px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #009668;
+  color: white;
+  padding: 9px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 12px;
+}  
+
+a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+} 
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+td, th {
+border: 2px solid black;
+border-radius: 4px;
+text-align: left;
+padding: 2px;
+}
+
+tr:nth-child(even) {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+</style>
+</head>
+<body>
+
+
+  <div class="banner">
+    <div class="navbar">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="signin.php">Sign in </a></li>
+            <li><a href="portfolio.html">portfolio</a></li> 
+            <li><a href="contact.html">Contact</a></li> 
+        </ul>
+    </div>
+
+
+    <div class="card" style="background-color: rgba(255, 255, 255, 0.2);" > 
+  <div class="container">
+    <form action="/action_page.php">
+ 
+        <img src="root/me.jpg" alt="rastin" class=" rounded" >
+  <h1>Rastin Shahrokhi</h1>
+  <p>Student Number : 9757140</p>
+  <h2> Semester Grades : </h2>
+
+  <table>
+    <tr>
+      <th>Lesson</th>
+      <th>Unit (Course)</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>Data Structure</td>
+      <td>3</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Artificial Intelligence</td>
+      <td>3</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Vhdl</td>
+      <td>3</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Programming</td>
+      <td>3</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Math</td>
+      <td>3</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>Operating System</td>
+      <td>3</td>
+      <td>19.5</td>
+    </tr>
+  </table>
+  
+
+    </form>
+
+
+  </div>
+</div>
+<div class="contentForNewtry"><button type="button"  onclick="window.location.href='About.html';"><span></span> back to previous page  </button></div>
+
+
+
+</body>
+</html>
